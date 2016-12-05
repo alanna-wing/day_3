@@ -1,0 +1,13 @@
+def population_density(population, area)
+  return population / area
+end
+
+print "Enter population number: "
+input_population = gets.chomp.to_i
+
+print "Enter area size: "
+input_area = gets.chomp.to_i
+
+density = population_density(input_population, input_area)
+
+puts "The population density is #{density}"
