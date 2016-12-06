@@ -29,3 +29,11 @@ end
 
 divide_result = divide(10, 2)
 puts "Division: #{divide_result}"
+
+#Length of string Function
+def length_of_string(my_string)
+  return my_string.count
+end
+
+my_string = "my string is 21 chars"
+puts length_of_string
