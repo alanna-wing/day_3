@@ -38,3 +38,14 @@ end
 test_string = "a string of length 21"
 result = length_of_string(test_string)
 puts "Length of string: #{result}"
+
+#Join string Function
+def join_string(string_1, string_2)
+  return string_1 + string_2
+end
+
+string_1 = "Mary had a little lamb, "
+string_2 = "it's fleece was white as snow"
+joined_string = join_string(string_1, string_2)
+
+puts joined_string
