@@ -46,6 +46,17 @@ end
 
 string_1 = "Mary had a little lamb, "
 string_2 = "it's fleece was white as snow"
-joined_string = join_string(string_1, string_2)
 
+joined_string = join_string(string_1, string_2)
 puts joined_string
+
+#Add string as number Function
+def add_string_as_number(string_1, string_2)
+  return string_1.to_i + string_2.to_i
+end
+
+string_1 = "1"
+string_2 = "2"
+
+add_result = add_string_as_number(string_1, string_2)
+puts "Joined string as numbers: #{add_result}"
