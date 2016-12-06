@@ -31,9 +31,10 @@ divide_result = divide(10, 2)
 puts "Division: #{divide_result}"
 
 #Length of string Function
-def length_of_string(my_string)
-  return my_string.count
+def length_of_string(test_string)
+  return test_string.length
 end
 
-my_string = "my string is 21 chars"
-puts length_of_string
+test_string = "a string of length 21"
+result = length_of_string(test_string)
+puts "Length of string: #{result}"
