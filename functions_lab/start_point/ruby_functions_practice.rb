@@ -26,3 +26,6 @@ puts "Multiplication: #{multiply_result}"
 def divide(first_number, second_number)
   return first_number / second_number
 end
+
+divide_result = divide(10, 2)
+puts "Division: #{divide_result}"
