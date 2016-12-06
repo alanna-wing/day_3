@@ -16,10 +16,13 @@ puts "Subtraction: #{subtract_result}"
 
 #Multiply Function
 def multiply(first_number, second_number)
-  return first_number / second_number
+  return first_number * second_number
 end
 
 multiply_result = multiply(4, 2)
 puts "Multiplication: #{multiply_result}"
 
 #Divide Function
+def divide(first_number, second_number)
+  return first_number / second_number
+end
